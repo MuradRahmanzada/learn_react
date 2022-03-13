@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #23252C;
+}
+
+.App {
+    width: 450px;
+    height: 920px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #F5F5F5;
+    margin: 1rem auto;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.nav-title {
+    font-size: 35px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #2B283A;
+    padding-top: 5px;
+}
+
+.nav-job {
+    color: #F47D27;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 15px;
+}
+
+.nav-link {
+    color: #4A4E74;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+.buttons button {
+    margin-right: 1rem;
+    padding: 15px 40px 15px 40px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.email-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+}
+
+.email-btn i {
+    font-size: 16px;
+}
+
+.email-btn i span {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.link-btn {
+    background-color: #297FE5;
+    color: #f5f5f5;
+    border: none;
+}
+
+.link-btn i {
+    font-size: 16px;
+}
+
+.link-btn i span {
+    margin-left: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin-left: 2rem;
+}
+
+.about-title {
+    line-height: 150%;
+    font-weight: 700;
+    color: #2B283A;
+    padding-top: 20px;
+}
+
+.about-text {
+    color: #4A4E74;
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+.interest-title{
+    font-size: 1.17rem;
+    padding-top: 1rem;
+}
+
+.interest-text {
+    padding-top: 5px;
+    color: #4A4E74;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #D5D4D8;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+
+}
+
+footer img {
+    margin-left: 2rem;
+}
